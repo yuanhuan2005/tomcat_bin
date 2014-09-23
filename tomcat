@@ -1,30 +1,4 @@
 #!/bin/bash
-#
-# sshd		Start up the OpenSSH server daemon
-#
-# chkconfig: 2345 55 25
-# description: SSH is a protocol for secure remote shell access. \
-#              This service starts up the OpenSSH server daemon.
-#
-# processname: sshd
-# config: /etc/ssh/ssh_host_key
-# config: /etc/ssh/ssh_host_key.pub
-# config: /etc/ssh/ssh_random_seed
-# config: /etc/ssh/sshd_config
-# pidfile: /var/run/sshd.pid
-
-### BEGIN INIT INFO
-# Provides: sshd
-# Required-Start: $local_fs $network $syslog
-# Required-Stop: $local_fs $syslog
-# Should-Start: $syslog
-# Should-Stop: $network $syslog
-# Default-Start: 2 3 4 5
-# Default-Stop: 0 1 6
-# Short-Description: Start up the OpenSSH server daemon
-# Description:       SSH is a protocol for secure remote shell access.
-#		     This service starts up the OpenSSH server daemon.
-### END INIT INFO
 
 # source function library
 . /etc/rc.d/init.d/functions
