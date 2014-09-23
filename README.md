@@ -7,11 +7,11 @@ Install
 -------
 1. Control tomcat by scripts.
 
-Modify tomcat.config: change running_user and tomcat_home for yourself.
+    Modify tomcat.config: change running_user and tomcat_home for yourself.
 
 2. Control tomcat as a Linux service.
 
-Modify tomcat_running_home_dir in tomcat.
+    Modify tomcat_running_home_dir in tomcat.
 
 
 Usage
